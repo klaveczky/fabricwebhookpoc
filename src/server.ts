@@ -3,7 +3,7 @@ import { requestLogger } from './request-logger-middleware'
 import { json } from 'body-parser'
 
 const app: Express = express()
-const port = 3001
+const port = 8080
 
 app.use(json())
 app.use(requestLogger)
